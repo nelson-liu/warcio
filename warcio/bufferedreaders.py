@@ -24,7 +24,7 @@ def deflate_decompressor_alt():
 #=================================================================
 def try_brotli_init():
     try:
-        import brotli
+        import brotlicffi as brotli
 
         def brotli_decompressor():
             decomp = brotli.Decompressor()

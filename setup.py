@@ -39,7 +39,7 @@ setup(
             'hookdns',
         ],
         'all': [
-            'brotlipy',
+            'brotlicffi',
         ]
     },
     classifiers=[
